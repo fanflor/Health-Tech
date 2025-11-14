@@ -1,0 +1,6 @@
+{
+  "Name": "Health Tech",
+  "ProjectType": "Process",
+  "Description": "Patient registration automation",
+  "MainFile": "Main.xaml"
+}

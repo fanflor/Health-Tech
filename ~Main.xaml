@@ -131,6 +131,7 @@
       <AssemblyReference>NPOI.Core</AssemblyReference>
       <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1048,685.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -227,7 +228,7 @@
             <av:PointCollection x:Key="ConnectorLocation">160,235 160,265 350,265 350,315</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Patient Pdf Extraction " sap:VirtualizedContainerService.HintSize="554,3729.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_7">
+        <Sequence DisplayName="Patient Pdf Extraction " sap:VirtualizedContainerService.HintSize="554,3610.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_7">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="variable2" />
             <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -481,7 +482,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:ForEachFileX>
-          <Assign sap:VirtualizedContainerService.HintSize="520,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_8">
+          <Assign sap:VirtualizedContainerService.HintSize="520,167.33333333333334" sap2010:WorkflowViewState.IdRef="Assign_8">
             <Assign.To>
               <OutArgument x:TypeArguments="sd:DataTable">[out_userDT]</OutArgument>
             </Assign.To>
@@ -489,7 +490,6 @@
               <InArgument x:TypeArguments="sd:DataTable">[dt_emailinfo]</InArgument>
             </Assign.Value>
           </Assign>
-          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="520,109.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_8" Text="[dt_emailinfo.ToString]" />
         </Sequence>
         <FlowStep.Next>
           <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">

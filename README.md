@@ -1,4 +1,4 @@
-# Health-Tech 
+# Patient Flow (Health-Tech)
 ## Intelligent Patient Onboarding RPA Project
 
 This project demonstrates a fully functional **UiPath Robotic Process Automation (RPA)** workflow for automating patient registration, PDF data extraction, database updates, and email notifications in a healthcare setting.
